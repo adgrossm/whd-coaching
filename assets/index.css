@@ -1,4 +1,54 @@
-h1 {
-    color: purple;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+/*nav styles */
+
+.nav-wrapper{
+display: flex;
+justify-content: space-between;
+padding: 38px;
+background-color: slategray;
+}
+
+.left-side {
+    display: flex;
+    text-transform: uppercase;
+
+}
+
+.nav-wrapper > .left-side > div {
+    margin-right: 20px;
+    font-size: 0.9em;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.5s;
+
+}
+
+.nav-link-wrapper :hover {
+    border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a :hover {
+    color: black;
+}
+
+.active-nav-link {
+    border-bottom: 1px solid black;
+}
+
+.active-nav-link a{
+   color: black !important;
 }
