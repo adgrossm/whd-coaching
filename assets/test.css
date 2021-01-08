@@ -1,0 +1,179 @@
+body {
+    /* font-family: "Lato", sans-serif; */
+margin: 0;
+background-color: rgb(182, 182, 182);
+
+}
+
+.nav-wrapper{
+    display: flex;
+    background-color: steelblue;
+    justify-content: space-between;
+    padding: 2%;
+    /* position: fixed; */
+    width: 100%;
+    
+    
+    }
+
+i {
+        color: white;
+       
+    }
+
+    .left-side {
+        display: flex;
+        text-transform: uppercase;
+    
+    }
+    
+    .nav-wrapper > .left-side > div {
+        margin-right: 20px;
+        font-size: 0.9em;
+        
+    }
+
+    .nav-link-wrapper {
+        height: 22px;
+        border-bottom: 1px solid transparent;
+        transition: border-bottom 0.5s;
+    }
+    
+    .nav-link-wrapper a{
+        color: white;
+        text-decoration: none;
+        transition: color 0.5s;
+    
+    }
+    
+    .nav-link-wrapper div{
+        color: white;
+        text-decoration: none;
+        transition: color 0.5s;
+    
+    }
+    
+    .nav-link-wrapper :hover {
+        border-bottom: 1px solid white;
+    }
+    
+    .nav-link-wrapper a :hover {
+        color: white;
+    }
+    
+    .active-nav-link {
+        border-bottom: 1px solid white;
+    }
+    
+    .active-nav-link a{
+       color: white !important;
+    }
+
+    /* body container */
+
+    /* .body-container {
+        margin: 0;
+        
+        
+    } */
+
+    .hero-container {
+        margin-left: 10%;
+        height: 400px;
+        width: 75%;
+        background: url(./images/railroad.jpg);
+        background-size: cover;
+        text-align: center;
+
+    }
+
+    h2 {
+        color: white;
+        justify-content: center;
+        /* margin: auto; */
+        padding-top: 12%;
+        font-size: 36px;
+    }
+    
+    /* background container */
+
+    .headshot-container {
+        display: grid;
+        grid-template-columns: .5fr 1fr;
+        margin-left: 5%;
+        padding-left: 2%;
+        margin-top: 2%;
+    }
+
+.welcome-text-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+h3 {
+    color:white;
+}
+
+
+
+    .section-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr  ;
+       
+        
+    }
+
+    .column {
+        float: left;
+        width: 33.33%;
+        margin-left: 15%;
+      }
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+    .approach-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+       
+        
+    }
+
+    .approach-container img {
+        display: grid;
+        grid-template-columns: 1fr 1fr  ;
+       margin-left: 10%;
+       width: 75%;
+        
+    }
+
+
+    .section-container img{
+        width: 33%;
+        
+        margin-left: 10%;
+    }
+
+    .text-container {
+        
+       margin-left: 10%;
+       
+    }
+    
+
+
+    .footer {
+        display: flex;
+        background-color: steelblue;
+        justify-content: center;
+        color: white;
+        /* position: fixed; */
+        width: 100%;
+        }
