@@ -128,10 +128,15 @@ h3 {
 
     .column {
         float: left;
-        width: 33.33%;
+        width: 33.3%;
         margin-left: 15%;
+
       }
       
+      .column img{
+        width: 200px;
+        height: 200px;
+      }
       /* Clear floats after the columns */
       .row:after {
         content: "";
@@ -162,7 +167,9 @@ h3 {
     }
 
     .text-container {
-        
+       display: grid;
+       grid-template-columns: 1fr .75fr;
+        /* width: 33%; */
        margin-left: 10%;
        
     }
