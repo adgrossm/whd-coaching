@@ -1,0 +1,28 @@
+.hero-container {
+    height: 500px;
+    opacity: .8;
+    /* margin: 0; */
+    /* width: fit-content; */
+    /* background: orange; */
+/* background-image: url(./assets/images/bridge_1400x600.jpg) ;
+background-repeat: none;
+background-size: cover; */
+/* position: absolute; */
+/* top: 0px;
+left: 0;
+right: 0;
+bottom: 0; */
+}
+
+.hero-text {
+    height: 500px;
+    color: black;
+    
+    background-image: url(./assets/images/bridge_1400x600.jpg) ;
+background-repeat: none;
+background-size: cover;
+   /* display: flex; */
+   padding-top: 200px;
+   padding-left: 90px;
+   padding-right: 70px;
+}
