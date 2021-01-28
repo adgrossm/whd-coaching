@@ -36,14 +36,12 @@ background-size: cover;
     background-color: bisque;
     
       }
-    
-      
-    
-    form .submit {
+     
+form .submit {
         background: cornflowerblue;
     }
 
-    form .submit:hover {
+form .submit:hover {
         background: rgb(56, 56, 102);
         cursor: pointer
     }
