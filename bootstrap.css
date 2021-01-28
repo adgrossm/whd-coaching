@@ -31,3 +31,19 @@ background-size: cover;
     background: chartreuse;
     text-align: center;
 }
+
+#entire-form {
+    background-color: bisque;
+    
+      }
+    
+      
+    
+    form .submit {
+        background: cornflowerblue;
+    }
+
+    form .submit:hover {
+        background: rgb(56, 56, 102);
+        cursor: pointer
+    }
