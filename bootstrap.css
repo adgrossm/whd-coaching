@@ -27,6 +27,11 @@ background-size: cover;
    padding-right: 70px;
 }
 
+/* #approach {
+    animation: 3s ease-in-out;
+} */
+
+
 .service-text {
     background: chartreuse;
     text-align: center;
@@ -34,7 +39,7 @@ background-size: cover;
 
 #entire-form {
     background-color: bisque;
-    
+   
       }
      
 form .submit {
@@ -43,5 +48,12 @@ form .submit {
 
 form .submit:hover {
         background: rgb(56, 56, 102);
-        cursor: pointer
+        cursor: pointer;
+        color: white;
     }
+
+    .contact-title {
+        align-items: center;
+    }
+
+    
